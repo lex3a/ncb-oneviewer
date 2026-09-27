@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:pages": "tsc -b && vite build --base=/ncb-oneviewer/ --outDir dist-pages"
   },
   "dependencies": {
     "@ffmpeg/core": "^0.12.10",
